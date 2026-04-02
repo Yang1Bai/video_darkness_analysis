@@ -81,6 +81,6 @@ python analyze_foam.py \
 python plot_combined.py \
     --foam ../example_output/foam_features.csv \
     --darkness ../example_output/darkness_features.csv \
-    --title "InCl3 (no Zn) â 03/02" \
+    --title "InCl3 (no Zn) – 03/02" \
     --output ../example_output/combined_plot.png
 ```
