@@ -24,14 +24,14 @@ were produced with the commands listed in the Methods section.
 | Column | Unit | Description |
 |---|---|---|
 | `time_s` | s | Elapsed time |
-| `mean_gray` | â | Mean ROI pixel intensity (0â255) |
-| `dark_ratio` | â | Fraction of pixels below threshold |
-| `darkness` | â | `1 â mean_gray / 255` |
-| `std_gray` | â | Standard deviation of ROI pixel intensities |
-| `std_gray_norm` | â | `std_gray / 255` |
-| `darkness_smooth` | â | Rolling-mean smoothed darkness *(smooth CSV only)* |
-| `dark_ratio_smooth` | â | Rolling-mean smoothed dark_ratio *(smooth CSV only)* |
-| `std_gray_smooth` | â | Rolling-mean smoothed std_gray_norm *(smooth CSV only)* |
+| `mean_gray` | — | Mean ROI pixel intensity (0–255) |
+| `dark_ratio` | — | Fraction of pixels below threshold |
+| `darkness` | — | `1 − mean_gray / 255` |
+| `std_gray` | — | Standard deviation of ROI pixel intensities |
+| `std_gray_norm` | — | `std_gray / 255` |
+| `darkness_smooth` | — | Rolling-mean smoothed darkness *(smooth CSV only)* |
+| `dark_ratio_smooth` | — | Rolling-mean smoothed dark_ratio *(smooth CSV only)* |
+| `std_gray_smooth` | — | Rolling-mean smoothed std_gray_norm *(smooth CSV only)* |
 
 ### foam_features.csv
 
