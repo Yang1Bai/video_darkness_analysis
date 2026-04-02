@@ -261,7 +261,7 @@ If you use this code in your research, please cite the associated paper (see
 header) and this repository:
 
 ```
-Yang Bai (2025). video_darkness_analysis: Supporting code for reaction-video
+XX. video_darkness_analysis: Supporting code for reaction-video
 optical analysis. GitHub. https://github.com/Yang1Bai/video_darkness_analysis
 ```
 
