@@ -33,6 +33,22 @@ video_darkness_analysis/
 
 ---
 
+## Raw video data
+
+The raw video recordings analysed by this code are available on Google Drive:
+
+**[Download raw videos](https://drive.google.com/drive/folders/1RlZp30mjDbS6gUVqBfUZrhBVo98cTxp0)**
+
+| File | Description |
+|---|---|
+| `InCl3 reduction.mp4` | InCl3 reduction reaction (1x concentration) |
+| `3.5xInCl3 reduction.mp4` | InCl3 reduction reaction (3.5x concentration) |
+| `SbCl3 reduction.mp4` | SbCl3 reduction reaction |
+
+Download these files and place them in a local `data/` directory before running the analysis scripts.
+
+---
+
 ## Installation
 
 Python >= 3.8 is required.
@@ -261,7 +277,7 @@ If you use this code in your research, please cite the associated paper (see
 header) and this repository:
 
 ```
-XX. video_darkness_analysis: Supporting code for reaction-video
+Yang Bai (2025). video_darkness_analysis: Supporting code for reaction-video
 optical analysis. GitHub. https://github.com/Yang1Bai/video_darkness_analysis
 ```
 
