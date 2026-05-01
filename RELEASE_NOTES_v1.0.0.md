@@ -5,9 +5,9 @@
 This is the archival release of `video_darkness_analysis` prepared in
 conjunction with the submission of the associated Nature Communications paper:
 
-> **Automated synthesis using kinetically controlled co-reduction improves the
-> batch-to-batch reproducibility of InSb quantum dots**
-> *Yang Bai et al.* — *Nature Communications*, 2026
+> **Automated Synthesis of Uniform and Reproducible InSb Quantum Dots via
+> Kinetically Matched Co-reduction**
+> *Yangning Zhang et al.* — *Nature Communications*, 2026
 > DOI: not yet available (to be updated upon publication)
 
 The release provides a permanent, citable snapshot of the analysis code at the

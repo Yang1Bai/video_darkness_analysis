@@ -2,7 +2,7 @@
 
 Supporting code for the quantitative analysis of reaction-vessel video recordings reported in:
 
-> **Automated synthesis using kinetically controlled co-reduction improves the batch-to-batch reproducibility of InSb quantum dots** -- *Yang Bai et al.* -- *Nature Communications*, 2026
+> **Automated Synthesis of Uniform and Reproducible InSb Quantum Dots via Kinetically Matched Co-reduction** -- *Yangning Zhang et al.* -- *Nature Communications*, 2026
 > DOI: not yet available (to be updated upon publication)
 
 This repository provides the Python scripts used to quantify precursor-reduction kinetics and extract optical features — darkness index and foam thickness — from fixed-camera reaction videos of chemical synthesis. All scripts accept command-line arguments so that paths, ROI coordinates, and analysis parameters can be varied without editing the source code.

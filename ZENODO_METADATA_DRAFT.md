@@ -89,9 +89,9 @@ MIT
 ### Description
 
 This record contains supplementary movies associated with the Nature
-Communications paper "Automated synthesis using kinetically controlled
-co-reduction improves the batch-to-batch reproducibility of InSb quantum
-dots". The files include fixed-camera reaction videos used for
+Communications paper "Automated Synthesis of Uniform and Reproducible InSb
+Quantum Dots via Kinetically Matched Co-reduction" (Yangning Zhang et al.,
+Nature Communications, 2026). The files include fixed-camera reaction videos used for
 precursor-reduction kinetic analysis and supporting darkness-index and
 foam-thickness quantification.
 
