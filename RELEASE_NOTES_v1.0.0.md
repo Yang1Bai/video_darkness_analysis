@@ -54,10 +54,9 @@ Supporting files:
 
 ## Relationship to the Nature Communications paper
 
-The exact commands used to produce each figure in the Methods section are
-documented in `README.md` (Recommended analysis workflow) and in
-`example_output/README.md`. All analysis parameters are exposed as
-command-line arguments; the defaults match those used in the paper.
+The recommended analysis workflow and command-line usage are documented in
+`README.md` and `example_output/README.md`. All analysis parameters are
+exposed as command-line arguments; the defaults match those used in the paper.
 
 ---
 

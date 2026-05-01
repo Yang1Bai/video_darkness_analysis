@@ -3,8 +3,7 @@ README for Zenodo data upload
 ================================================================================
 
 Dataset title:
-  Supplementary movies and unprocessed raw data for automated synthesis of
-  InSb quantum dots
+  Supplementary movies for automated synthesis of InSb quantum dots
 
 Associated paper:
   Automated synthesis using kinetically controlled co-reduction improves the
@@ -42,14 +41,16 @@ All videos are provided as-recorded (no post-processing, no cropping, no
 compression beyond the camera's native codec).
 
 ================================================================================
-2. What the unprocessed raw data are
+2. Unprocessed raw data and Source Data
 ================================================================================
 
-Unprocessed raw data files include any tabular measurements (e.g., instrument
-logs, spectroscopic data, batch records) collected during synthesis experiments
-that are referenced in the associated paper but are not the direct output of
-the video analysis scripts. These are provided in their original form without
-further processing.
+Unprocessed raw data and Source Data are not necessarily included in this
+Zenodo record. They should be provided separately according to Nature
+Communications production requirements (e.g., as Supplementary Data files
+or as Source Data attached to the published paper).
+
+If unprocessed raw data files are added to this Zenodo record, list them
+explicitly in ZENODO_VIDEO_MANIFEST_TEMPLATE.md and update this README.
 
 ================================================================================
 3. How the files relate to the GitHub analysis code
@@ -76,12 +77,15 @@ documented in the paper's Methods section and in `example_output/README.md`.
 
   zenodo_data_upload/
   ├── README_for_Zenodo_videos.txt      ← this file
-  ├── videos/
-  │   ├── InCl3 reduction.mp4
-  │   ├── 3.5xInCl3 reduction.mp4
-  │   └── SbCl3 reduction.mp4
-  └── raw_data/
-      └── [unprocessed raw data files]
+  └── videos/
+      ├── InCl3 reduction.mp4
+      ├── 3.5xInCl3 reduction.mp4
+      └── SbCl3 reduction.mp4
+
+  Note: the three video filenames above are based on current working names.
+  Confirm exact filenames before upload and update this README if they differ.
+  Add a raw_data/ subfolder only if unprocessed data files are included in
+  this record.
 
 ================================================================================
 5. Suggested citation wording

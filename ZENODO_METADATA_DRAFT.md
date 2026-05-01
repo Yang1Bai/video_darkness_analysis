@@ -75,7 +75,7 @@ MIT
 | Field | Value |
 |---|---|
 | **Upload type** | Dataset |
-| **Title** | Supplementary movies and unprocessed raw data for automated synthesis of InSb quantum dots |
+| **Title** | Supplementary movies for automated synthesis of InSb quantum dots |
 | **Publication date** | (set to paper publication date) |
 
 ### Creators
@@ -84,24 +84,32 @@ MIT
 |---|---|---|
 | Bai, Yang | (add affiliation) | (add ORCID if available) |
 
+> **Note:** Add additional co-authors before publication if required.
+
 ### Description
 
-Fixed-camera video recordings of chemical reaction vessels acquired during the
-synthesis of InSb quantum dots, together with unprocessed raw experimental
-data referenced in the associated Nature Communications paper. Three video
-files are included: InCl3 reduction at standard concentration, InCl3 reduction
-at elevated concentration (3.5×), and SbCl3 reduction. Videos are provided as
-recorded with no post-processing. Analysis code for these videos is archived
-separately (see Related identifiers).
+This record contains supplementary movies associated with the Nature
+Communications paper "Automated synthesis using kinetically controlled
+co-reduction improves the batch-to-batch reproducibility of InSb quantum
+dots". The files include fixed-camera reaction videos used for
+precursor-reduction kinetic analysis and supporting darkness-index and
+foam-thickness quantification.
+
+> **Note:** Unprocessed raw data and Source Data should be provided
+> separately according to Nature Communications production requirements,
+> unless explicitly included in this Zenodo record.
 
 ### Keywords
 
 ```
 InSb quantum dots
 automated synthesis
-reaction video
 precursor reduction
-supplementary data
+reaction video analysis
+darkness index
+foam thickness
+supplementary movies
+unprocessed raw data
 ```
 
 ### Licence
@@ -110,8 +118,10 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ### Files to upload
 
-See `README_for_Zenodo_videos.txt` in the code repository for the full file
-list and suggested folder structure.
+See `README_for_Zenodo_videos.txt` and `ZENODO_VIDEO_MANIFEST_TEMPLATE.md` in
+the code repository for the video file list and suggested folder structure.
+Unprocessed raw data and Source Data files should be added here only if
+included in this Zenodo record per journal production requirements.
 
 ### Related identifiers
 
