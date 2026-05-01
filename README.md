@@ -2,14 +2,10 @@
 
 Supporting code for the quantitative analysis of reaction-vessel video recordings reported in:
 
-> **[Paper title]** -- *[Authors]* -- *[Journal]*, *[Year]*
-> DOI: [doi]
+> **Automated synthesis using kinetically controlled co-reduction improves the batch-to-batch reproducibility of InSb quantum dots** -- *Yang Bai et al.* -- *Nature Communications*, 2026
+> DOI: not yet available (to be updated upon publication)
 
-This repository provides the Python scripts used to extract optical features --
-darkness index and foam thickness -- from fixed-camera video recordings of
-chemical reactions. All scripts accept command-line arguments so that paths,
-ROI coordinates, and analysis parameters can be varied without editing the
-source code.
+This repository provides the Python scripts used to quantify precursor-reduction kinetics and extract optical features — darkness index and foam thickness — from fixed-camera reaction videos of chemical synthesis. All scripts accept command-line arguments so that paths, ROI coordinates, and analysis parameters can be varied without editing the source code.
 
 ---
 
@@ -33,11 +29,17 @@ video_darkness_analysis/
 
 ---
 
-## Raw video data
+## Data and code availability
 
-The raw video recordings analysed by this code are available on Google Drive:
+> **Raw videos and unprocessed raw data are not tracked in this GitHub repository.**
+> They will be archived separately on [Zenodo](https://zenodo.org) upon publication.
+> The archival code release (DOI-minted snapshot of this repository) will likewise be
+> generated through Zenodo after the GitHub release is tagged.
 
-**[Download raw videos](https://drive.google.com/drive/folders/1RlZp30mjDbS6gUVqBfUZrhBVo98cTxp0)**
+For reference, the raw video recordings used in the associated paper are currently
+available on Google Drive (interim storage only; the Zenodo archive supersedes this):
+
+**[Download raw videos (interim)](https://drive.google.com/drive/folders/1RlZp30mjDbS6gUVqBfUZrhBVo98cTxp0)**
 
 | File | Description |
 |---|---|

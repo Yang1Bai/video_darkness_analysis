@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Generated output directories
+output/
+outputs/
+results/
+figures/
+
+# Video files
+*.avi
+*.mp4
+*.mov
+*.mkv
+
+# Image files
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+
+# Data files
+*.csv
+*.xlsx

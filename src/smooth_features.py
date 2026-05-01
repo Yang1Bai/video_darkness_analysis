@@ -71,7 +71,7 @@ def main():
     data = pd.read_csv(args.input)
     w    = args.window
 
-    # Centered rolling mean â edges will contain NaN (pandas default)
+    # Centered rolling mean — edges will contain NaN (pandas default)
     data["darkness_smooth"]   = data["darkness"].rolling(window=w, center=True).mean()
     data["dark_ratio_smooth"] = data["dark_ratio"].rolling(window=w, center=True).mean()
     data["std_gray_smooth"]   = data["std_gray_norm"].rolling(window=w, center=True).mean()

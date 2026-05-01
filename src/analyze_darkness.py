@@ -5,11 +5,11 @@ Extract darkness-related optical features from a fixed rectangular ROI in a
 video recording of a chemical reaction.
 
 For each sampled frame the script crops the ROI, converts it to grayscale,
-applies a 5Ã5 Gaussian blur, and computes the following metrics:
+applies a 5×5 Gaussian blur, and computes the following metrics:
 
-  mean_gray     : Mean pixel intensity in the ROI (range 0â255).
+  mean_gray     : Mean pixel intensity in the ROI (range 0–255).
   dark_ratio    : Fraction of pixels whose intensity falls below *--threshold*.
-  darkness      : Normalized darkness index, defined as  1 â mean_gray / 255.
+  darkness      : Normalized darkness index, defined as  1 − mean_gray / 255.
                   Equals 0 for a fully bright ROI and 1 for a completely dark one.
   std_gray      : Standard deviation of pixel intensities in the ROI.
   std_gray_norm : Normalized std, defined as  std_gray / 255.
@@ -62,7 +62,7 @@ def parse_args():
     )
     parser.add_argument(
         "--threshold", type=int, default=65,
-        help="Grayscale intensity threshold for dark-pixel classification (0â255).",
+        help="Grayscale intensity threshold for dark-pixel classification (0–255).",
     )
     parser.add_argument(
         "--step_time", type=float, default=0.3,
@@ -88,7 +88,7 @@ def main():
     width       = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height      = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     print(f"Video: {args.video}")
-    print(f"  FPS: {fps:.2f}  |  Frames: {frame_count}  |  Size: {width}Ã{height}")
+    print(f"  FPS: {fps:.2f}  |  Frames: {frame_count}  |  Size: {width}×{height}")
 
     x, y, w, h   = args.roi
     threshold     = args.threshold

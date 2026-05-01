@@ -8,7 +8,7 @@ Algorithm
 ---------
 For every frame the script:
   1. Crops a narrow vertical strip ROI from the reaction vessel.
-  2. Converts the ROI to grayscale and applies a 5Ã5 Gaussian blur.
+  2. Converts the ROI to grayscale and applies a 5×5 Gaussian blur.
   3. Computes the mean vertical intensity profile (averaged across ROI width).
   4. Smooths the profile with a 1D Gaussian kernel (ksize=9).
   5. Computes the absolute gradient of the smoothed profile to locate
@@ -19,10 +19,10 @@ For every frame the script:
 
 Layer classification
 --------------------
-  2 major interfaces â 3-layer system (air / foam / liquid) â foam present
+  2 major interfaces → 3-layer system (air / foam / liquid) → foam present
                        Foam thickness = vertical distance between the two peaks.
-  1 major interface  â 2-layer system (air / liquid)         â no foam
-  0 major interfaces â unclassified (transitional or uniform) â no foam
+  1 major interface  → 2-layer system (air / liquid)         → no foam
+  0 major interfaces → unclassified (transitional or uniform) → no foam
 
 A detected foam thickness outside [5, 180] pixels is considered a false
 detection and discarded.
@@ -111,7 +111,7 @@ def main():
     width       = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height      = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     print(f"Video: {args.video}")
-    print(f"  FPS: {fps:.2f}  |  Frames: {frame_count}  |  Size: {width}Ã{height}")
+    print(f"  FPS: {fps:.2f}  |  Frames: {frame_count}  |  Size: {width}×{height}")
 
     x, y, w, h = args.roi
     print(f"  ROI: x={x}, y={y}, w={w}, h={h}")
