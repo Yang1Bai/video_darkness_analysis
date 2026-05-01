@@ -7,7 +7,7 @@
 >
 > Placeholders to fill in before finalising:
 > - `[PAPER_DOI]` — assigned by Nature Communications upon acceptance/publication
-> - `[DATA_ZENODO_DOI]` — assigned after uploading the video/data record to Zenodo
+> - `10.5281/zenodo.19956412` — ✅ **confirmed:** `10.5281/zenodo.19956412`
 > - `[CODE_ZENODO_DOI]` — assigned after creating the GitHub release and
 >   triggering the Zenodo GitHub integration
 
@@ -56,7 +56,7 @@ MIT
 | Relation | Identifier | Note |
 |---|---|---|
 | `isSupplementTo` | `[PAPER_DOI]` | Associated Nature Communications paper |
-| `isSupplementedBy` | `[DATA_ZENODO_DOI]` | Separate Zenodo data record (videos + raw data) |
+| `isSupplementedBy` | `10.5281/zenodo.19956412` | Separate Zenodo data record (videos + raw data) |
 | `isIdenticalTo` | `https://github.com/Yang1Bai/video_darkness_analysis` | GitHub source repository |
 | **Self** | `[CODE_ZENODO_DOI]` | This record's DOI (assigned by Zenodo on creation) |
 
@@ -130,14 +130,14 @@ included in this Zenodo record per journal production requirements.
 | `isSupplementTo` | `[PAPER_DOI]` | Associated Nature Communications paper |
 | `isSupplementedBy` | `[CODE_ZENODO_DOI]` | Zenodo code/software record |
 | `isDocumentedBy` | `https://github.com/Yang1Bai/video_darkness_analysis` | GitHub analysis code |
-| **Self** | `[DATA_ZENODO_DOI]` | This record's DOI (assigned by Zenodo on creation) |
+| **Self** | `10.5281/zenodo.19956412` | This record's DOI (assigned by Zenodo on creation) |
 
 ---
 
 ## DOI fill-in checklist
 
 - [ ] Paper accepted → fill in `[PAPER_DOI]`
-- [ ] Data record uploaded to Zenodo → fill in `[DATA_ZENODO_DOI]`
+- [x] Data record uploaded to Zenodo → `10.5281/zenodo.19956412` ✅
 - [ ] GitHub release `v1.0.0` created → Zenodo mints `[CODE_ZENODO_DOI]`
 - [ ] Update `README.md` with paper DOI and code DOI
 - [ ] Update `CITATION.cff` with code DOI (`doi:` field)

@@ -8,12 +8,12 @@ Dataset title:
 Associated paper:
   Automated synthesis using kinetically controlled co-reduction improves the
   batch-to-batch reproducibility of InSb quantum dots
-  Yang Bai et al.
+  Yangning Zhang et al.
   Nature Communications, 2026
-  DOI: [PAPER_DOI]
+  DOI: not yet assigned at the time of this Zenodo deposition
 
 Data DOI (this Zenodo record):
-  [DATA_ZENODO_DOI]
+  10.5281/zenodo.19956412
 
 ================================================================================
 1. What the videos are
@@ -65,7 +65,8 @@ read the video files in this Zenodo record as input. To reproduce the analysis:
   1. Download the video files from this Zenodo record.
   2. Place them in a local `data/` directory.
   3. Clone or download the code from the GitHub repository (or its Zenodo
-     code archive, DOI: [CODE_ZENODO_DOI]).
+     code archive, DOI: to be provided in the separate Zenodo software archive
+     after the GitHub release is created).
   4. Follow the step-by-step workflow in README.md.
 
 The exact ROI coordinates and analysis parameters used for each video are
@@ -91,22 +92,24 @@ documented in the paper's Methods section and in `example_output/README.md`.
 5. Suggested citation wording
 ================================================================================
 
-For the video/data record (this Zenodo upload):
+For the supplementary-movie record (this Zenodo upload):
 
-  Bai, Yang et al. (2026). Supplementary movies and unprocessed raw data for
-  automated synthesis of InSb quantum dots [Dataset]. Zenodo.
-  https://doi.org/[DATA_ZENODO_DOI]
+  Zhang, Yangning et al. (2026). Supplementary movies for automated synthesis
+  of InSb quantum dots [Dataset]. Zenodo.
+  https://doi.org/10.5281/zenodo.19956412
 
 For the analysis code (separate Zenodo software record):
 
   Bai, Yang (2026). video_darkness_analysis: supporting code for
   reaction-video optical analysis [Software]. Zenodo.
-  https://doi.org/[CODE_ZENODO_DOI]
+  https://doi.org/ (to be provided in the separate Zenodo software archive
+  after the GitHub release is created)
 
 For the associated paper:
 
-  Bai, Yang et al. (2026). Automated synthesis using kinetically controlled
-  co-reduction improves the batch-to-batch reproducibility of InSb quantum
-  dots. Nature Communications. https://doi.org/[PAPER_DOI]
+  Zhang, Yangning et al. (2026). Automated Synthesis of Uniform and
+  Reproducible InSb Quantum Dots via Kinetically Matched Co-reduction.
+  Nature Communications.
+  DOI: not yet assigned at the time of this Zenodo deposition
 
 ================================================================================
