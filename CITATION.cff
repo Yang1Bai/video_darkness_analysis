@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "video_darkness_analysis: supporting code for reaction-video optical analysis"
+authors:
+  - family-names: Bai
+    given-names: Yang
+repository-code: "https://github.com/Yang1Bai/video_darkness_analysis"
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-01"
