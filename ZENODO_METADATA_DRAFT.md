@@ -8,8 +8,7 @@
 > Placeholders to fill in before finalising:
 > - `[PAPER_DOI]` — assigned by Nature Communications upon acceptance/publication
 > - `10.5281/zenodo.19956412` — ✅ **confirmed:** `10.5281/zenodo.19956412`
-> - `[CODE_ZENODO_DOI]` — assigned after creating the GitHub release and
->   triggering the Zenodo GitHub integration
+> - `10.5281/zenodo.19958176` — ✅ **confirmed:** `10.5281/zenodo.19958176`
 
 ---
 
@@ -58,7 +57,7 @@ MIT
 | `isSupplementTo` | `[PAPER_DOI]` | Associated Nature Communications paper |
 | `isSupplementedBy` | `10.5281/zenodo.19956412` | Separate Zenodo data record (videos + raw data) |
 | `isIdenticalTo` | `https://github.com/Yang1Bai/video_darkness_analysis` | GitHub source repository |
-| **Self** | `[CODE_ZENODO_DOI]` | This record's DOI (assigned by Zenodo on creation) |
+| **Self** | `10.5281/zenodo.19958176` | This record's DOI (assigned by Zenodo on creation) |
 
 ### Notes for Zenodo form
 
@@ -128,7 +127,7 @@ included in this Zenodo record per journal production requirements.
 | Relation | Identifier | Note |
 |---|---|---|
 | `isSupplementTo` | `[PAPER_DOI]` | Associated Nature Communications paper |
-| `isSupplementedBy` | `[CODE_ZENODO_DOI]` | Zenodo code/software record |
+| `isSupplementedBy` | `10.5281/zenodo.19958176` | Zenodo code/software record |
 | `isDocumentedBy` | `https://github.com/Yang1Bai/video_darkness_analysis` | GitHub analysis code |
 | **Self** | `10.5281/zenodo.19956412` | This record's DOI (assigned by Zenodo on creation) |
 
@@ -138,7 +137,7 @@ included in this Zenodo record per journal production requirements.
 
 - [ ] Paper accepted → fill in `[PAPER_DOI]`
 - [x] Data record uploaded to Zenodo → `10.5281/zenodo.19956412` ✅
-- [ ] GitHub release `v1.0.0` created → Zenodo mints `[CODE_ZENODO_DOI]`
-- [ ] Update `README.md` with paper DOI and code DOI
-- [ ] Update `CITATION.cff` with code DOI (`doi:` field)
+- [x] GitHub release `v1.0.0` created → Zenodo archived → `10.5281/zenodo.19958176` ✅
+- [x] Update `README.md` with code DOI ✅ (paper DOI pending)
+- [x] Update `CITATION.cff` with code DOI ✅
 - [ ] Update `ZENODO_METADATA_DRAFT.md` related-identifier tables (or retire this file)

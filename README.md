@@ -33,8 +33,7 @@ video_darkness_analysis/
 
 > **Raw videos and unprocessed raw data are not tracked in this GitHub repository.**
 > They will be archived separately on [Zenodo](https://zenodo.org) upon publication.
-> The archival code release (DOI-minted snapshot of this repository) will likewise be
-> generated through Zenodo after the GitHub release is tagged.
+> The archival code release is archived on Zenodo at https://doi.org/10.5281/zenodo.19958176
 
 For reference, the raw video recordings used in the associated paper are currently
 available on Google Drive (interim storage only; the Zenodo archive supersedes this):
@@ -279,8 +278,8 @@ If you use this code in your research, please cite the associated paper (see
 header) and this repository:
 
 ```
-Yang Bai (2025). video_darkness_analysis: Supporting code for reaction-video
-optical analysis. GitHub. https://github.com/Yang1Bai/video_darkness_analysis
+Yang Bai (2026). video_darkness_analysis: supporting code for reaction-video
+optical analysis (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19958176
 ```
 
 ---

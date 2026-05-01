@@ -71,6 +71,6 @@ wording for that record.
 
 ## Zenodo code DOI
 
-A Zenodo DOI for this software repository will be minted automatically after
-the GitHub release is created and linked to Zenodo via the GitHub integration.
-The DOI will be added to `README.md` and `CITATION.cff` once available.
+This repository is archived on Zenodo at:
+
+**https://doi.org/10.5281/zenodo.19958176**
