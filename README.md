@@ -287,3 +287,40 @@ optical analysis (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19958176
 ## License
 
 MIT License -- see `LICENSE` for details.
+
+---
+
+## 🇨🇳 中文说明
+
+### 项目简介
+
+本仓库提供论文 **《通过动力学匹配共还原法自动合成均一可重复 InSb 量子点》**（*Automated Synthesis of Uniform and Reproducible InSb Quantum Dots via Kinetically Matched Co-reduction*，*Nature Communications*, 2026）中使用的视频光学分析代码。
+
+### 功能
+
+基于固定摄像头拍摄的化学合成反应视频，定量提取以下光学特征：
+- **暗度指数（Darkness Index）**：反应物还原进度的光学代理指标
+- **泡沫厚度（Foam Thickness）**：反应剧烈程度的形态学指标
+
+所有脚本均支持命令行参数，无需修改源码即可调整路径、ROI 坐标和分析参数。
+
+### 快速开始
+
+```bash
+git clone https://github.com/Yang1Bai/video_darkness_analysis.git
+cd video_darkness_analysis
+pip install -r requirements.txt
+# 查看 README 中的详细步骤说明
+```
+
+### 引用
+
+如果本代码对您的研究有帮助，请引用原始论文（DOI 发布后更新）。
+
+### 开源协议
+
+详见 LICENSE 文件。
+
+---
+
+*如有问题请提 Issue 或联系作者。*
